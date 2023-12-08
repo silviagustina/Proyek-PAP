@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Website IT Del</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="image/Del_Institute_of_Technology_Logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        </head>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-time" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="pengumuman.html">Pengumuman</a></li>
+                        <li><a href="Pendidikan.html">Pendidikan</a></li>
+                        <li><a href="lembaga.html">Fasilitas</a></li>
+                        <li><a href="fasilitas.html">Lembaga</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>PROGRAM PENDIDIKAN</h1>
+        </section>
+
+        <!----Program Pendidikan--->
+
+        <section class="program_pendidikan">
+            <h1>PROGRAM PENDIDIKAN</h1>
+            <p>Program Pendidikan yang ada di Kampus IT Del</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Fakultas Informatika dan Teknik Elektro(FITE)</h3>
+                    <p>S1 Informatika
+                        <br>S1 Sistem Informasi
+                        <br>S1 Teknik Elektro
+                    </p>
+                </div>          
+                <div class="course-col">
+                    <h3>Fakultas Vokasi</h3>
+                    <p>D4 Teknologi Rekayasa Perangkat Lunak
+                        <br> D3 Teknologi Informasi
+                        <br> D3 Teknologi Komputer
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Fakultas Bioteknologi</h3>
+                    <p>S1 Teknik Bioproses</p>
+                </div>
+                <div class="course-col">
+                    <h3>Fakultas Teknologi Industri</h3>
+                    <p>S1 Manajemen Rekayasa
+                        <br> S1 Teknik Metalurgi
+                    </p>
+                </div>
+            </div>
+
+        </section>
+  
+        <!---Footer--->
+
+        <section class="footer">
+             <h4>About Us</h4>
+             <p>Hubungi Kami</p>
+             <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="far fa-envelope"></i>
+            </div>
+            
+             <p>Copyright SDI-IT Del © 2023 Institut Teknologi Del. All Rights Reserved</p>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "200px";
+            }
+        </script>
+    </body>
+</html>

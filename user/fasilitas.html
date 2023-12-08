@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Website IT Del</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="image/Del_Institute_of_Technology_Logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        </head>
+        
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-time" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="pengumuman.html">Pengumuman</a></li>
+                        <li><a href="Pendidikan.html">Pendidikan</a></li>
+                        <li><a href="fasilitas.html">Fasilitas</a></li>
+                        <li><a href="lembaga.html">Lembaga</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>FASILITAS</h1>
+        </section>
+
+        <!----Fasilitas--->
+
+        <section class="fasilitas">
+             <div class="row">
+                <div class="blog-left">
+                    <img src="image/labor.jpg">
+                    <h2>FASILITAS</h2>
+                    <p>Kampus ini menawarkan beragam fasilitas modern yang mendukung pengalaman belajar yang optimal bagi para mahasiswa. 
+                        Gedung perkuliahan dilengkapi dengan teknologi canggih, 
+                        seperti ruang kuliah berbasis multimedia dan sistem audiovisual mutakhir. 
+                        Selain itu, perpustakaan kampus menyediakan koleksi buku yang luas dan akses elektronik ke jurnal-jurnal terkini, 
+                        memastikan bahwa mahasiswa memiliki sumber daya yang memadai untuk mendukung studi mereka.</p>
+                    <br>
+                    <p>Fasilitas olahraga di kampus ini juga menarik perhatian mahasiswa untuk menjaga kesehatan dan kebugaran. 
+                        Terdapat lapangan olahraga serbaguna, pusat kebugaran modern, dan fasilitas untuk berbagai kegiatan rekreasi. 
+                        Dengan demikian, mahasiswa tidak hanya dapat mengembangkan kecerdasan intelektual mereka, 
+                        tetapi juga menjaga keseimbangan hidup melalui aktivitas fisik yang menyenangkan.</p>
+                    <br>
+                    <p>Selain itu, kampus ini memiliki fasilitas penunjang kehidupan sehari-hari, 
+                        seperti kantin untuk setiap mahasiswa/i dalam kehidupan berasrama. 
+                        Area istirahat yang nyaman dan ramah lingkungan juga tersedia untuk mahasiswa bersosialisasi, 
+                        bertukar ide, dan membentuk hubungan sosial yang kuat. 
+                        Dengan menyediakan fasilitas-fasilitas ini, kampus menciptakan lingkungan yang mendukung pertumbuhan holistik mahasiswa dan membantu mereka meraih potensi maksimal selama masa kuliah mereka.</p>
+                </div>
+                <div class="blog-right">
+                    <h3>Jenis Fasilitas</h3>
+                    <div>
+                        <span>Laboratorium</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Kantin</span>
+                        <span>2</span>
+                    </div>
+                    <div>
+                        <span>Akomodasi</span>
+                        <span>10</span>
+                    </div>
+                    <div>
+                        <span>Perpustakaan</span>
+                        <span>1</span>
+                    </div>
+                    <div>
+                        <span>Hiburan dan Olahraga</span>
+                        <span>2</span>
+                    </div>
+                    <div>
+                        <span>Ruang Terbuka</span>
+                        <span>20</span>
+                    </div>
+                    <div>
+                        <span>Klinik</span>
+                        <span>11</span>
+                    </div>
+                </div>
+             </div>
+
+        </section>
+  
+        <!---Footer--->
+
+        <section class="footer">
+             <h4>About Us</h4>
+             <p>Hubungi Kami</p>
+             <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="far fa-envelope"></i>
+            </div>
+            
+             <p>Copyright SDI-IT Del © 2023 Institut Teknologi Del. All Rights Reserved</p>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "200px";
+            }
+        </script>
+    </body>
+</html>

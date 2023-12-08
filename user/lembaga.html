@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Website IT Del</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="image/Del_Institute_of_Technology_Logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        </head>
+        
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-time" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="pengumuman.html">Pengumuman</a></li>
+                        <li><a href="Pendidikan.html">Pendidikan</a></li>
+                        <li><a href="fasilitas.html">Fasilitas</a></li>
+                        <li><a href="lembaga.html">Lembaga</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>LEMBAGA</h1>
+        </section>
+
+        <!----Lembaga--->
+
+        <section class="lembaga">
+             <div class="row">
+                <div class="blog-left">
+                    <img src="image/pengumuman.jpg">
+                    <h2>LEMBAGA</h2>
+                    <p>
+                        Institut Teknologi Del (IT Del) adalah sebuah lembaga pendidikan tinggi yang terletak di Sumatera Utara, Indonesia. 
+                        Berdiri dengan visi untuk menjadi pusat unggulan dalam pengembangan teknologi dan ilmu pengetahuan, 
+                        IT Del telah mendedikasikan dirinya untuk mencetak generasi muda yang kompeten dan inovatif. 
+                        Dengan kurikulum yang berfokus pada pendekatan praktis dan pemecahan masalah, 
+                        kampus ini menawarkan berbagai program studi di bidang teknik, informatika, dan manajemen, 
+                        memberikan mahasiswa peluang untuk mengembangkan keterampilan mereka sesuai dengan tuntutan pasar kerja global.</p>
+                    <br>
+                    <p>Sebagai lembaga yang berkomitmen terhadap penelitian dan pengembangan, 
+                        IT Del aktif terlibat dalam berbagai proyek inovatif dan kolaboratif dengan industri dan lembaga lainnya. 
+                        Mahasiswa dan dosen di IT Del memiliki akses ke fasilitas modern dan laboratorium yang dilengkapi dengan peralatan canggih, 
+                        menciptakan lingkungan yang mendukung eksplorasi dan penemuan. 
+                        Selain itu, kampus ini juga mendorong pengembangan keterampilan soft skills melalui berbagai kegiatan ekstrakurikuler, seminar, dan pelatihan, 
+                        membantu mahasiswa untuk menjadi profesional yang tidak hanya kompeten secara teknis tetapi juga memiliki kepribadian yang unggul.</p>
+                    <br>
+                    <p>Melalui dedikasinya terhadap pendidikan dan penelitian berkualitas, 
+                        Institut Teknologi Del telah menjadi pilihan utama bagi calon mahasiswa yang ingin mengejar karir di dunia teknologi dan ilmu pengetahuan. 
+                        Kampus ini terus berusaha untuk menjadi pusat keunggulan akademis, 
+                        mempersiapkan mahasiswanya untuk menghadapi tantangan global dan menjadi pemimpin masa depan dalam berbagai bidang industri.</p>
+                </div>
+                <div class="blog-right">
+                    <h3>Lembaga</h3>
+                    <div>
+                        <span>LPPM</span>
+                    </div>
+                    <div>
+                        <span>Mitra kerjasama dengan IT Del</span>
+                    </div>
+                    <div>
+                        <span>UPT PP-ESTEM</span>
+                    </div>
+                    <div>
+                        <span>Sistem Penjamin Mutu(SPM)</span>
+                    </div>
+                    <div>
+                        <span>Pusat Modal Manusia(PMM)</span>
+                    </div>
+                    <div>
+                        <span>Koperasi</span>
+                    </div>
+                    <div>
+                        <span>Pusat Bahasa Del</span>
+                    </div>
+                </div>
+             </div>
+
+        </section>
+  
+        <!---Footer--->
+
+        <section class="footer">
+             <h4>About Us</h4>
+             <p>Hubungi Kami</p>
+             <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="far fa-envelope"></i>
+            </div>
+            
+             <p>Copyright SDI-IT Del © 2023 Institut Teknologi Del. All Rights Reserved</p>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "200px";
+            }
+        </script>
+    </body>
+</html>
