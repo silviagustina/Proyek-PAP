@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>crud dashboard</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!----css3---->
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!--google fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!--google material icon-->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="body-overlay"></div>
+    <!-------------------------sidebar------------>
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h3><img src="img/del.jpg" class="img-fluid" /><span>IT DEL</span></h3>
+      </div>
+      <ul class="list-unstyled components">
+        <li class="active">
+          <a href="#" class="dashboard"><i class="material-icons">dashboard</i>
+            <span>Dashboard</span></a>
+        </li>
+
+        <li class="">
+          <a href="pengumuman.html">
+            <i class="material-icons">announcement</i>
+            <span>Pengumuman</span>
+          </a>
+        </li>
+
+        <li class="dropdown">
+          <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+            <i class="material-icons">school</i>
+            <span>Program Pendidikan</span></a>
+          <ul class="collapse list-unstyled menu" id="pageSubmenu3">
+            <li>
+              <a href="fite.html">Fakultas Informatika & Elektro</a>
+            </li>
+            <li>
+              <a href="vokasi.html">Fakultas Vokasi</a>
+            </li>
+            <li>
+              <a href="bioteknologi.html">Fakultas Bioteknologi</a>
+            </li>
+            <li>
+              <a href="fti.html">Fakultas Teknologi Industri</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="">
+          <a href="fasilitas.html">
+            <i class="material-icons">local_hospital</i>
+            <span>Fasilitas</span>
+          </a>
+        </li>
+
+        <li class="">
+          <a href="lembaga.html">
+            <i class="material-icons">business</i>
+            <span>Lembaga</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!--------page-content---------------->
+
+    <div id="content">
+
+      <!--top--navbar----design--------->
+
+      <div class="top-navbar">
+        <div class="xp-topbar">
+
+          <!-- Start XP Row -->
+          <div class="row">
+            <!-- Start XP Col -->
+            <div class="col-2 col-md-1 col-lg-1 order-2 order-md-1 align-self-center">
+              <div class="xp-menubar">
+                <span class="material-icons text-white">signal_cellular_alt
+                </span>
+              </div>
+            </div>
+            <!-- End XP Col -->
+
+            <!-- Start XP Col -->
+            <div class="col-md-5 col-lg-3 order-3 order-md-2">
+              <div class="xp-searchbar">
+                <form>
+                  <div class="input-group">
+                    <input type="search" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                      <button class="btn" type="submit" id="button-addon2">GO</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- End XP Col -->
+
+            <!-- Start XP Col -->
+            <div class="col-10 col-md-6 col-lg-8 order-1 order-md-3">
+              <div class="xp-profilebar text-right">
+                <nav class="navbar p-0">
+                  <ul class="nav navbar-nav flex-row ml-auto">
+                    <li class="dropdown nav-item active">
+                      <a href="#" class="nav-link" data-toggle="dropdown">
+                        <span class="material-icons">notifications</span>
+                        <span class="notification">4</span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a href="#">You have 5 new messages</a>
+                        </li>
+                        <li>
+                          <a href="#">You're now friend with Mike</a>
+                        </li>
+                        <li>
+                          <a href="#">Wish Mary on her birthday!</a>
+                        </li>
+                        <li>
+                          <a href="#">5 warnings in Server Console</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span class="material-icons">question_answer</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="#" data-toggle="dropdown">
+                        <img src="img/user.jpg" style="width:40px; border-radius:50%;" />
+                        <span class="xp-user-live"></span>
+                      </a>
+                      <ul class="dropdown-menu small-menu">
+                        <li>
+                          <a href="#">
+                            <span class="material-icons">
+                              person_outline
+                            </span>Profile
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#"><span class="material-icons">
+                              settings
+                            </span>Settings</a>
+                        </li>
+                        <li>
+                          <a href="#"><span class="material-icons">
+                              logout</span>Logout</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <!-- End XP Col -->
+          </div>
+          <!-- End XP Row -->
+        </div>
+        <div class="xp-breadcrumbbar text-center">
+          <h4 class="page-title">Dashboard</h4>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Booster</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Add this canvas for the chart -->
+      <div class="container mt-4">
+        <canvas id="myChart" width="400" height="200"></canvas>
+      </div>
+
+      <!-- Tambahkan tabel berita di sini -->
+      <div class="container mt-4">
+        <h2 class="text-center mb-4">Berita</h2>
+      
+        <!-- Row 1 -->
+        <div class="row">
+          <!-- Berita 1 -->
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/berita.jpg" class="card-img-top" alt="Judul Berita 1">
+              <div class="card-body">
+                <h5 class="card-title text-center">Bapak Gibran Rakabuming Raka Beri Kuliah Umum kepada Mahasiswa IT Del terkait “Pemimpin Milenial”</h5>
+                <p class="card-text text-left">
+                  Pada Hari Sabtu, 18 November 2023 Institut Teknologi Del menerima kunjungan 
+                  Bapak Gibran Rakabuming Raka, sekaligus menjadi pembicara pada Kuliah Umum dengan topik “Pemimpin Milenial” kepada Mahasiswa/i Institut Teknologi Del. […]
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">14/11/2023</small>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Berita 2 -->
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/berita1.jpg" class="card-img-top" alt="Judul Berita 2">
+              <div class="card-body">
+                <h5 class="card-title text-center">Kuliah Umum oleh Konsulat Amerika Serikat terkait Suku Asli Amerika Serikat</h5>
+                <p class="card-text text-left">
+                  Pada hari Jumat, 24 November 2023 Institut Teknologi Del menerima kunjungan dari 
+                  Ibu Kristy Mordhorts (Konsulat Amerika Serikat di Medan). Kunjungan ini disambut baik oleh IT Del yang diwakili oleh […]
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">15/11/2023</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Row 2 -->
+        <div class="row">
+          <!-- Berita 3 -->
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/berita2.jpeg" class="card-img-top" alt="Judul Berita 3">
+              <div class="card-body">
+                <h5 class="card-title text-center">Sampling Kemenyan Toba di Kabupaten Tapanuli Utara, Kabupaten Humbang Hasundutan, dan Kabupaten Pakpak Bharat</h5>
+                <p class="card-text text-left">
+                  Tim Institut Teknologi Del yang terdiri atas Ymelda A. C. Manurung, M.Sc. (Peneliti Genomik Herbal KHDTK IT Del), 
+                  Roga Florida Kembaren, M.Si. (Dosen Teknik Bioproses IT Del) dan Darwin Silalahi, […]
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">16/11/2023</small>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Berita 4 -->
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="img/berita3.jpeg" class="card-img-top" alt="Judul Berita 4">
+              <div class="card-body">
+                <h5 class="card-title text-center">IT Del Ikuti Kegiatan KMI EXPO XIV di Bali Hingga Terima Penghargaan Pendamping Terbaik</h5>
+                <p class="card-text text-left">
+                  Pada tanggal 15-17 November 2023, Institut Teknologi Del turut serta mengikuti kegiatan kompetisi KMI EXPO XIV 2023 yang diselenggarakan oleh Belmawa di Universitas Pendidikan Ganesha, Singaraja Bali. KMI EXPO merupakan […]
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">17/11/2023</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Tambahkan baris sesuai dengan jumlah berita yang Anda miliki -->
+      </tbody>
+      </table>
+    </div>
+
+    <!---footer---->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="footer-in">
+          <p class="mb-0">Copyright SDI-IT Del © 2023 Institut Teknologi Del. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  </div>
+
+  <!----------html code complete----------->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".xp-menubar").on('click', function () {
+        $('#sidebar').toggleClass('active');
+        $('#content').toggleClass('active');
+      });
+
+      $(".xp-menubar,.body-overlay").on('click', function () {
+        $('#sidebar,.body-overlay').toggleClass('show-nav');
+      });
+    });
+
+    // Sample data for the chart
+    var chartData = {
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'july', 'August', 'October', 'November', 'December'],
+      datasets: [{
+        label: 'Pengunjung Bulanan ',
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 1,
+        data: [65, 59, 70, 81, 56, 100, 87, 34, 24, 88, 49, 56],
+      }],
+    };
+
+    // Get the chart canvas element
+    var ctx = document.getElementById('myChart').getContext('2d');
+
+    // Create a new Chart and render it
+    var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: chartData,
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
+          },
+        },
+      },
+    });
+  </script>
+
+</body>
+
+</html> 
